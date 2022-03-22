@@ -9,11 +9,6 @@
 @import "../../../node_modules/@syncfusion/ej2-grids/styles/material.css";
 @import "../../../node_modules/@syncfusion/ej2-react-spreadsheet/styles/material.css";
 
- .xls-editor {
-  height: 97.7vh;
-  width: 75vw;
+.xls-editor {
+  height: 100%;
 }
-
-.e-sheet-panel {
-  width: 100vw;
-} 
