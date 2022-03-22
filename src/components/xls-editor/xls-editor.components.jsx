@@ -1,13 +1,9 @@
-import { SpreadsheetComponent, SheetsDirective, SheetDirective, RangesDirective } from "@syncfusion/ej2-react-spreadsheet";
-import { RangeDirective, ColumnsDirective, ColumnDirective } from '@syncfusion/ej2-react-spreadsheet';
+import { SpreadsheetComponent, SheetsDirective, SheetDirective } from "@syncfusion/ej2-react-spreadsheet";
+import { ColumnsDirective, ColumnDirective } from '@syncfusion/ej2-react-spreadsheet';
 
 import "./xls-editor.styles.css";
 
 const XLSEditor = () => {
-  const beforeOpen = (args) => {
-    // your code snippets here
-  }
-
   return (
     <div className="xls-editor">
       <SpreadsheetComponent
@@ -18,9 +14,6 @@ const XLSEditor = () => {
       >
         <SheetsDirective>
           <SheetDirective>
-            {/* <RangesDirective>
-                <RangeDirective dataSource={defaultData}></RangeDirective>
-            </RangesDirective> */}
             <ColumnsDirective>
                 <ColumnDirective width={180}></ColumnDirective>
                 <ColumnDirective width={130}></ColumnDirective>
