@@ -10,5 +10,5 @@
 @import "../../../node_modules/@syncfusion/ej2-react-spreadsheet/styles/material.css";
 
 .e-sheet-panel {
-  height: 31rem;
+  height: 76vh;
 }
